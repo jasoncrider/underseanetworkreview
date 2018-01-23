@@ -1565,7 +1565,7 @@
 			margin-left: 83.33333%;
 		}
 
-		.\-9u\28xxsmall\29 {
+		.\-9uf\28xxsmall\29 {
 			margin-left: 75%;
 		}
 
@@ -3882,9 +3882,17 @@
 
 /* Intro */
 
-	#intro {
+	#undersea {
 		background-attachment: fixed;
-		background-image: url("images/networkcover.png");
+		background-image: url("images/underseaback.jpeg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	#two {
+		background-attachment: fixed;
+		background-image: url("images/circuits3.jpeg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3917,3 +3925,8 @@
 			}
 
 		}
+
+		.left {
+   float: left;
+   padding: 0 20px 20px 0;
+}
