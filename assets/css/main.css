@@ -3898,6 +3898,24 @@
 		background-size: 100% 100%;
 	}
 
+	@media screen and (max-width: 480px) {
+
+		#undersea {
+			background-image: none;
+		}
+
+		#two {
+			background-image: none;
+		}
+
+		.img-responsive {
+			width: 100%;
+			height: auto;
+			padding: 0;
+		}
+
+	}
+
 		#intro p {
 			font-size: 1em;
 		}
